@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Comunidad Sion
+	Diseñado by | SaraíGV
+	Sitio oficial de la comunidad Sion
+	--------------------------------------
+	html5up.net
 */
 
 html, body, div, span, applet, object,
@@ -1769,7 +1771,8 @@ input, select, textarea {
 				max-width: calc(100% - 3.375em);
 			}
 
-		}
+		}		
+
 
 /* Section/Article */
 
@@ -2728,6 +2731,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
+		padding: 3em 0em 0em 0em;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2761,13 +2765,13 @@ input, select, textarea {
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 1em auto;
-				width: 14em;
+				width: 15em;
 
 			}
 
 			#header > header h1 {
 				font-size: 1.45em;
-				margin: 0;
+				margin: 0em 0 0em 0;
 			}
 
 			#header > header p {
@@ -2835,6 +2839,48 @@ input, select, textarea {
 						border-top: 0;
 					}
 
+
+/* nav2 */
+
+	#nav2 {
+		background-color: #282828;
+		text-align: left;
+		position: fixed;
+		left: 0;
+		top: 0;
+		float: left;
+		width: 100%;
+		z-index: 10000;
+		cursor: default;
+		height: 3.5em;
+		line-height: 3.5em;
+	}
+
+		#nav2 ul {
+			margin-bottom: 0;
+			list-style: none;
+			padding-left: 0;
+		}
+
+		#nav2 li {
+			
+			padding-left: 0;
+		}
+
+	.logo img {
+		display: inline-block;
+  		margin: 2px;
+  		height: 3.1em;
+	}	
+
+	.container2 {
+		margin: 0 auto;
+		max-width: calc(100% - 4.5em);
+		width: 100%;
+		padding: 0 0 0 5em;
+		}
+
+
 /* Wrapper */
 
 	#wrapper {
@@ -2843,6 +2889,10 @@ input, select, textarea {
 	}
 
 /* Main */
+
+	#main {		
+		padding: 3em 0em 0em 0em;
+	}
 
 	#main > section {
 		border-top: solid 6px #f4f4f4;
@@ -3029,7 +3079,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 44px 0 1px 0;
+				padding: 3.5em 0 1px 0;
 			}
 
 		/* Header Panel */
@@ -3044,11 +3094,12 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
-				left: 0;
+				height: 3.5em;
+				left: 40%;
+				padding-left: 1em;
 				position: fixed;
 				top: 0;
-				width: 100%;
+				width: 60%;
 				z-index: 10001;
 				background: #222;
 				color: #fff;
@@ -3059,8 +3110,8 @@ input, select, textarea {
 					color: #fff;
 					display: block;
 					font-weight: 700;
-					height: 44px;
-					line-height: 44px;
+					height: 3.5em;
+					line-height: 3.5em;
 					padding: 0 1em;
 					width: 100%;
 					text-align: left;
@@ -3089,7 +3140,7 @@ input, select, textarea {
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
-						line-height: 1;
+						line-height: 1;						
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
@@ -3101,8 +3152,8 @@ input, select, textarea {
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
-						height: 44px;
-						line-height: 44px;
+						height: 3.5em;
+						line-height: 3.5em;
 						position: absolute;
 						text-align: center;
 						top: 0;
