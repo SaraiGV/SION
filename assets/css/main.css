@@ -3101,10 +3101,10 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				display: block;
 				height: 44px;
-				left: 5.5em;
+				left: 6.5em;
 				position: fixed;
 				top: 0;
-				width: calc(100% - 5.5em);
+				width: calc(100% - 8.5em);
 				z-index: 10001;
 				background: #222;
 				color: #fff;
@@ -3117,7 +3117,7 @@ input, select, textarea {
 					font-weight: 700;
 					height: 44px;
 					line-height: 44px;
-					padding: 0 1em;
+					padding: 0 0.5em;
 					width: 100%;
 					text-align: left;
 				}
