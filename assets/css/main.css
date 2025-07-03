@@ -2727,7 +2727,7 @@ input, select, textarea {
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
-		top: 0;
+		top: 3em;
 		width: 23em;
 		right: 0;
 	}
@@ -2837,6 +2837,56 @@ input, select, textarea {
 						border-top: 0;
 					}
 
+
+/* nav2 */
+
+	#nav2 {
+		background-color: #282828;
+		text-align: left;
+		position: fixed;
+		left: 0;
+		top: 0;
+		float: left;
+		width: 100%;
+		z-index: 10000;
+		cursor: default;
+		height: 3.5em;
+		line-height: 3.5em;
+	}
+
+		#nav2 ul {
+			margin-bottom: 0;
+			list-style: none;
+			padding-left: 0;
+		}
+
+		#nav2 li {
+			
+			padding-left: 0;
+		}
+		#nav2 li a {			
+			transition: none;
+			border: 0;
+			color: #ffffff !important;
+			display: block;						
+			text-decoration: none;
+		}
+
+
+	.logo img {
+		display: inline-block;
+  		margin: 2px;
+  		height: 2em;
+  		vertical-align: middle;
+	}	
+
+	.container2 {
+		margin: 0 auto;
+		max-width: calc(100% - 0.5em);
+		width: 100%;
+		padding: 0 0 0 5em;
+		}
+
 /* Wrapper */
 
 	#wrapper {
@@ -2845,6 +2895,10 @@ input, select, textarea {
 	}
 
 /* Main */
+
+	#main {		
+		padding: 3em 0em 0em 0em;
+	}
 
 	#main > section {
 		border-top: solid 6px #f4f4f4;
@@ -2949,7 +3003,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 20em;				
 			}
 
 	}
@@ -3031,7 +3085,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 44px 0 1px 0;
+				padding: 3.11em 0 1px 0;
 			}
 
 		/* Header Panel */
@@ -3046,11 +3100,11 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
-				left: 0;
+				height: 3.11em;
+				left: 6.5em;
 				position: fixed;
 				top: 0;
-				width: 100%;
+				width: calc(100% - 6.5em);
 				z-index: 10001;
 				background: #222;
 				color: #fff;
@@ -3061,8 +3115,8 @@ input, select, textarea {
 					color: #fff;
 					display: block;
 					font-weight: 700;
-					height: 44px;
-					line-height: 44px;
+					height: 3.11em;
+					line-height: 3.11em;
 					padding: 0 1em;
 					width: 100%;
 					text-align: left;
@@ -3103,8 +3157,8 @@ input, select, textarea {
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
-						height: 44px;
-						line-height: 44px;
+						height: 3.11em;
+						line-height: 3.11em;
 						position: absolute;
 						text-align: center;
 						top: 0;
@@ -3261,7 +3315,7 @@ input, select, textarea {
 
 				#titleBar .toggle:before {
 					font-size: 14px;
-					width: 44px;
+					width: 3.11em;
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
