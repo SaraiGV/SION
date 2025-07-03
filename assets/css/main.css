@@ -3104,11 +3104,13 @@ input, select, textarea {
 				left: 6.5em;
 				position: fixed;
 				top: 0;
-				width: calc(100% - 8.5em);
+				width: calc(100% - 10em);
 				z-index: 10001;
 				background: #222;
 				color: #fff;
 				min-width: 320px;
+				padding-left: 1em;
+				top:4px;
 			}
 
 				#titleBar .title {
